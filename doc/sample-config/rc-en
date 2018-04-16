@@ -27,7 +27,7 @@
 #
 #       listen = http://127.0.0.1:7777 1.2.3.4:5678
 #
-listen = http://127.0.0.1:7777
+#listen = http://0.0.0.0:8080
 
 # Log file path, defaults to stdout
 #logFile =
@@ -68,7 +68,7 @@ listen = http://127.0.0.1:7777
 #
 # HTTP:
 #   proxy = http://127.0.0.1:8080
-#   proxy = http://user:password@127.0.0.1:8080
+proxy = http://gro:holgert@0.0.0.0:8080
 #
 # 	authinfo is optional
 #
